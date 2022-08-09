@@ -1,0 +1,149 @@
+:root{
+  --color-insta: rgb(227, 55, 233);
+}
+
+:root{
+  --color-face: rgb(0, 60, 255);
+}
+
+:root{
+  --color-titles: #00af49;
+}
+
+#link_facebook{
+  color: var(--color-face);
+  font-size: 20px;
+  text-decoration: none;
+}
+
+body{
+  font-family: sans-serif;
+  margin: 0px;
+}
+
+#link_insta{
+  color: var(--color-insta);
+  font-size: 20px;
+  text-decoration: none;
+}
+
+#titulo1,
+#titulo2,
+#about_us,
+#descripcion,
+#titulo_fotos{
+  text-align:center;
+}
+
+#titulo_fotos{
+  color: var(--color-titles);
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.8);
+}
+
+#siguenos{
+  position:relative;
+  bottom: 15px;
+  left: 1050px;
+  width: 250px;
+}
+
+#contactanos{
+  position: relative;
+  top: 100px;
+  margin-left: 8px;
+  width: 700px;
+}
+
+#titulo1{
+  color: var(--color-titles);
+}
+
+.container{
+  width: 1349px;
+  height: 635px;
+  overflow: hidden;
+  position: relative;
+}
+
+.container img{
+  width: 100%;
+  height: 100%;
+  opacity: 30%;
+}
+
+.container h1{
+  position: absolute;
+  top: 30%;
+  left: 8%;
+  text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.8);
+}
+
+.container h3{
+  position: absolute;
+  top: 42%;
+  left: 26%;
+
+}
+
+#about-us{
+  height: 100px;
+  position: relative;
+}
+
+#about_us{
+  color: var(--color-titles);
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.8);
+}
+
+h1{
+  font-size: 40px;
+}
+
+h2{
+  font-size: 30px;
+}
+
+h3{
+  font-size: 25px;
+}
+
+.seguir-en-face{
+  width: 89px;
+  background-color: white;
+}
+
+.seguir-en-face:hover{
+  background-color: rgb(170, 170, 170);
+  transition-duration: .2s;
+
+}
+
+.seguir-en-insta{
+  width: 89px;
+  margin-top: 5px;
+  background-color: white;
+}
+
+.seguir-en-insta:hover{
+  background-color: rgb(170, 170, 170);
+  transition-duration: .2s;
+}
+
+#contactanos input{
+  width: 200px;
+  height: 30px;
+  border-style: none;
+  background-color: rgb(170, 252, 252);
+}
+
+#contactanos button{
+  border-style: none;
+  background-color: white;
+  width: 60px;
+  height: 20px;
+}
+
+#contactanos button:hover{
+  background-color: gray;
+  transition-duration: .2s;
+}
